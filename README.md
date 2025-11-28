@@ -90,13 +90,6 @@ An autonomous trading agent that makes real-time BUY/SELL/HOLD/WAIT decisions us
 
 This section presents all project images in one clean, organized gallery, making the documentation visually appealing and easy to understand.
 
----
-
-## Architecture Diagram
-
-<p align="center">
-  <img src="architecture.png" width="750">
-</p>
 
 ---
 ## Architecture Diagram
