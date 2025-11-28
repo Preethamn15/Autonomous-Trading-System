@@ -158,14 +158,13 @@ Dashboard will open at: http://localhost:8050
 
 
 # Training the Model
-open terminal:
-
+**open terminal:**
 cd ml_training
 python train_model.py
 
 This outputs:model.pkl
 
-Copy this to: agent/model.pkl
+**Copy this to:** agent/model.pkl
 
 ---
 
@@ -183,8 +182,7 @@ Real-time decisions:
 
 # Explainability (XAI)
 
-The agent provides:
-
+**The agent provides:**
 - Indicator contributions  
 - SHAP values  
 - Reasons like:
