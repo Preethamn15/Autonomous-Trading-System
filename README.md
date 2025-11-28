@@ -1,12 +1,6 @@
 # Autonomous Stream Trading with Explainable AI (TheoryEL)
 
-This project implements a fully autonomous, real-time trading decision platform using
-Machine Learning, Streaming Data Pipelines, Technical Indicators, and Explainable AI (XAI).
-It consumes live market data, generates indicators, makes ML-based BUY/SELL/WAIT decisions,
-and displays them in a live dashboard.
-
-The system is built as a distributed, containerized microservice architecture using Kafka,
-Python, Random Forest, SHAP explainability, and a Web Dashboard (Dash + Plotly).
+The proposed system is an autonomous real-time trading platform built on a streaming architecture where live market prices are continuously ingested and transformed into technical indicators such as SMA, EMA, RSI, and Volatility through a dedicated indicator engine. These enriched indicator streams are consumed by a hybrid decision-making agent that combines a trained Random Forest machine-learning model with rule-based logic to evaluate market momentum and trend behavior, ultimately producing BUY, SELL, or WAIT actions. To ensure transparency and interpretability, the system integrates an Explainable AI (XAI) layer using SHAP values, which reveals how each indicator contributed to the agent’s final decision and provides human-readable reasoning for every action the system takes.
 
 ---
 
