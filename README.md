@@ -173,10 +173,8 @@ This starts:
 - $env:FINNHUB_API_KEY="API_KEY_REPLACE_WITH_YOURS"
 - $env:SYMBOL="RELIANCE.NS"
 - $env:KAFKA_BOOTSTRAP="localhost:9092"
-
-.\venv\Scripts\Activate.ps1
-
-python producer/producer.py
+- .\venv\Scripts\Activate.ps1
+- python producer/producer.py
 
 
 ---
@@ -187,39 +185,29 @@ python producer/producer.py
 - $env:KAFKA_TICKS_TOPIC="ticks"
 - $env:KAFKA_IND_TOPIC="indicators"
 - $env:SYMBOL="RELIANCE.NS"
-
-.\venv\Scripts\Activate.ps1
-
-python indicator/consumer_indicator.py
+- .\venv\Scripts\Activate.ps1
+- python indicator/consumer_indicator.py
 
 
 ---
 
 # **STEP 4 — Start ML Agent (Terminal 3)**
-$env:KAFKA_BOOTSTRAP="localhost:9092"
-
-$env:IND_TOPIC="indicators"
-
-$env:SYMBOL="RELIANCE.NS"
-
-.\venv\Scripts\Activate.ps1
-python agent/agent.py
-
-
+- $env:KAFKA_BOOTSTRAP="localhost:9092"
+- $env:IND_TOPIC="indicators"
+- $env:SYMBOL="RELIANCE.NS"
+- .\venv\Scripts\Activate.ps1
+- python agent/agent.py
 ---
 
 # **STEP 5 — Start Dashboard (Terminal 4)**
-.\venv\Scripts\Activate.ps1
-cd dashboard
-python app.py
-
+- .\venv\Scripts\Activate.ps1
+- cd dashboard
+- python app.py
 
 Dashboard will open at: http://localhost:8050
 
 
 ---
-
-
 
 # Training the Model
 **open terminal:**
