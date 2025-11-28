@@ -101,49 +101,49 @@ This section presents all project images in one clean, organized gallery, making
 
 ## Dashboard Overview
 <p align="center">
-  <img src="dashboard_price.png" width="800">
+  <img src="dashboard_price.png" width="300">
 </p>
 
 ---
 
 ## Live Price & Indicators
 <p align="center">
-  <img src="live_price.png" width="800">
+  <img src="live_price.png" width="300">
 </p>
 
 ---
 
 ## Agent Decision Panel
 <p align="center">
-  <img src="dashboard_decision.png" width="750">
+  <img src="dashboard_decision.png" width="300">
 </p>
 
 ---
 
 ## ML Confidence Gauge
 <p align="center">
-  <img src="dashboard_confidence.png" width="750">
+  <img src="dashboard_confidence.png" width="300">
 </p>
 
 ---
 
 ## SHAP Explainability (Local Waterfall)
 <p align="center">
-  <img src="dashboard_shap.png" width="750">
+  <img src="dashboard_shap.png" width="300">
 </p>
 
 ---
 
 ## RSI & Volatility Panels
 <p align="center">
-  <img src="dashboard_rsi_vol.png" width="800">
+  <img src="dashboard_rsi_vol.png" width="300">
 </p>
 
 ---
 
 ## Recent Actions Log
 <p align="center">
-  <img src="dashboard_recent_actions.png" width="800">
+  <img src="dashboard_recent_actions.png" width="300">
 </p>
 
 ---
