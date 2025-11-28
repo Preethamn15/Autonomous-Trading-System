@@ -36,8 +36,7 @@ The platform is divided into 5 major components:
    Consumes live prices → computes technical indicators → sends to `indicator_stream`.
 
 3. **ML Agent**  
-   Loads trained Random Forest model → predicts BUY / SELL / WAIT  
-   + generates explanations.
+   Loads trained Random Forest model → predicts BUY / SELL / WAIT and uses single rule based decision agent and generates explanations.
 
 4. **Dashboard (Dash/Plotly)**  
    Real-time dashboard displaying price, indicators, and ML agent output.
