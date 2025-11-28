@@ -170,9 +170,9 @@ This starts:
 
 # STEP 2 — Start Producer (Terminal 1)
 
-$env:FINNHUB_API_KEY="API_KEY_REPLACE_WITH_YOURS"
-$env:SYMBOL="RELIANCE.NS"
-$env:KAFKA_BOOTSTRAP="localhost:9092"
+- $env:FINNHUB_API_KEY="API_KEY_REPLACE_WITH_YOURS"
+- $env:SYMBOL="RELIANCE.NS"
+- $env:KAFKA_BOOTSTRAP="localhost:9092"
 
 .\venv\Scripts\Activate.ps1
 
@@ -183,10 +183,10 @@ python producer/producer.py
 
 # STEP 3 — Start Indicator Consumer (Terminal 2)
 
-$env:KAFKA_BOOTSTRAP="localhost:9092"
-$env:KAFKA_TICKS_TOPIC="ticks"
-$env:KAFKA_IND_TOPIC="indicators"
-$env:SYMBOL="RELIANCE.NS"
+- $env:KAFKA_BOOTSTRAP="localhost:9092"
+- $env:KAFKA_TICKS_TOPIC="ticks"
+- $env:KAFKA_IND_TOPIC="indicators"
+- $env:SYMBOL="RELIANCE.NS"
 
 .\venv\Scripts\Activate.ps1
 
