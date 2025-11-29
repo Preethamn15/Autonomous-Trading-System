@@ -148,6 +148,18 @@ This section presents all project images in one clean, organized gallery, making
 
 This is the official way to run your entire system.
 
+
+---
+
+# Training the Model
+**open terminal:**
+cd ml_training
+python train_model.py
+
+This outputs:model.pkl
+
+**Copy this to:** agent/model.pkl
+
 ---
 
 # **STEP 1 — Start Kafka & Zookeeper**
@@ -199,17 +211,6 @@ This starts:
 
 Dashboard will open at: http://localhost:8050
 
-
----
-
-# Training the Model
-**open terminal:**
-cd ml_training
-python train_model.py
-
-This outputs:model.pkl
-
-**Copy this to:** agent/model.pkl
 
 ---
 
